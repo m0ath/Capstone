@@ -2,8 +2,12 @@ import os
 from sqlalchemy import Column, String, Integer, create_engine
 from flask_sqlalchemy import SQLAlchemy
 import json
+from dotenv import load_dotenv
 
-database_path = os.environ['DATABASE_URL']
+# For python-dotenv method
+load_dotenv() 
+
+database_path = os.environ.get('DATABASE_URL')
 # database_path = "postgres://{}/{}".format('localhost:5432', 'dbcap')
 
 db = SQLAlchemy()

@@ -4,6 +4,10 @@ from flask import request, _request_ctx_stack, abort
 from functools import wraps
 from jose import jwt
 from urllib.request import urlopen
+from dotenv import load_dotenv
+
+# For python-dotenv method
+load_dotenv() 
 
 
 AUTH0_DOMAIN = os.environ['AUTH0_DOMAIN']

@@ -5,6 +5,78 @@
 HeroKu URl: https://cap2m.herokuapp.com/
 Local URl : http://127.0.0.1:5000/
 
+## Motivation for project
+
+My motivation for this project is to graduate from Udacity with FANS.
+
+## Getting Started
+
+### Installing Dependencies
+
+#### Python 3.7
+
+Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
+
+#### Virtual Enviornment
+
+We recommend working within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separate and organaized. Instructions for setting up a virual enviornment for your platform can be found in the [python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+
+#### PIP Dependencies
+
+Once you have your virtual environment setup and running, install dependencies by naviging to the `/backend` directory and running:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install all of the required packages we selected within the `requirements.txt` file.
+
+##### Key Dependencies
+
+- [Flask](http://flask.pocoo.org/)  is a lightweight backend microservices framework. Flask is required to handle requests and responses.
+
+- [SQLAlchemy](https://www.sqlalchemy.org/) is the Python SQL toolkit and ORM we'll use handle the lightweight sqlite database. You'll primarily work in app.py and can reference models.py. 
+
+- [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/#) is the extension we'll use to handle cross origin requests from our frontend server. 
+
+## Running local development
+
+To run the server, execute:
+
+```bash
+export FLASK_APP=flaskr
+export FLASK_ENV=development
+flask run
+```
+
+## Running via HeroKu
+
+is running via HeroKu url below:
+
+HeroKu URl: https://cap2m.herokuapp.com/
+
+## Authentication setting
+
+All info about authentication can be found in setup.sh
+
+For testing you can used Postman to test the endpoint
+
+If token is expired used link below with info for each account:
+
+https://m0ath.us.auth0.com/authorize?audience=Capstone&response_type=token&client_id=62SWGy85kGro6r0t41WIfcMzris4OjtK&redirect_uri=https://127.0.0.1:8080/login-results
+
+Assistant
+username: assistant@example.com
+password: exa@123@
+
+Director
+username: director@example.com
+password: exa@123@
+
+Producer
+username: producer@example.com
+password: exa@123@
+
 ## API Reference
 
 ### Error Handling
