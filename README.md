@@ -55,28 +55,6 @@ is running via HeroKu url below:
 
 HeroKu URl: https://cap2m.herokuapp.com/
 
-## Authentication setting
-
-All info about authentication can be found in setup.sh
-
-For testing you can used Postman to test the endpoint
-
-If token is expired used link below with info for each account:
-
-https://m0ath.us.auth0.com/authorize?audience=Capstone&response_type=token&client_id=62SWGy85kGro6r0t41WIfcMzris4OjtK&redirect_uri=https://127.0.0.1:8080/login-results
-
-Assistant
-username: assistant@example.com
-password: exa@123@
-
-Director
-username: director@example.com
-password: exa@123@
-
-Producer
-username: producer@example.com
-password: exa@123@
-
 ## API Reference
 
 ### Error Handling
